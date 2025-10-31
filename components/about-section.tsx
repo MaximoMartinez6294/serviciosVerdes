@@ -34,12 +34,12 @@ const services = [
     "Realizamos poda de formación, mantenimiento o reducción de árboles, garantizando su salud y la seguridad del entorno. También retiramos ramas secas o peligrosas.",
   image: "/arboles.jpg",
 },
-  {
-    title: "Renovación de Jardines",
-    description:
-      "¿Vas a vender tu casa o querés renovar tu espacio? Ofrecemos renovaciones completas de jardines para mejorar la estética y el atractivo visual.",
-    image: "/landscaped-garden-bed-with-mulch-and-plants.jpg",
-  },
+{
+  title: "Corte para Empresas y Predios",
+  description:
+    "Brindamos servicios de mantenimiento y corte de césped para empresas, instituciones y grandes predios. Garantizamos prolijidad, puntualidad y un entorno siempre presentable.",
+  image: "/empresas.jpg",
+},
 ];
 
 
@@ -56,7 +56,7 @@ export function AboutSection() {
           className="text-center mb-12 md:mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-            Our <span className="text-[#6B9F3E]">Services</span>
+            Nuestros <span className="text-[#6B9F3E]">Servicios</span>
           </h2>
         </motion.div>
 

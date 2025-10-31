@@ -7,13 +7,12 @@ import { Menu, X, Search } from "lucide-react"
 import Image from "next/image"
 
 const navItems = [
-  { name: "CONTACT US", href: "#contact" },
-  { name: "SERVICES", href: "#services" },
-  { name: "ABOUT", href: "#about" },
-  { name: "TESTIMONIALS", href: "#testimonials" },
-  { name: "FAQ", href: "#faq" },
-  { name: "CAREERS", href: "#careers" },
+  { name: "CONTACTO", href: "#contact" },
+  { name: "SERVICIOS", href: "#services" },
+  { name: "NOSOTROS", href: "#about" },
+  { name: "TESTIMONIOS", href: "#testimonials" },
 ]
+
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -67,43 +66,45 @@ export function Header() {
       </nav>
 
       {/* Mobile Menu */}
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            className="fixed inset-0 z-50 bg-white px-6 py-6 flex flex-col"
-            initial={{ x: "100%" }}
-            animate={{ x: 0 }}
-            exit={{ x: "100%" }}
-            transition={{ type: "spring", stiffness: 120, damping: 20 }}
-          >
-            <div className="flex items-center justify-between mb-8">
-              <Image
-                src="/green-goat-lawn-care-logo.jpg"
-                alt="Green Goat Lawn Care Inc."
-                width={200}
-                height={60}
-                className="h-12 w-auto"
-              />
-              <button onClick={() => setIsOpen(false)} className="text-[#6B9F3E]">
-                <X className="w-6 h-6" />
-              </button>
-            </div>
+     <AnimatePresence>
+  {isOpen && (
+    <motion.div
+      className="fixed inset-0 z-50 bg-white px-6 py-6 flex flex-col"
+      initial={{ x: "100%" }}
+      animate={{ x: 0 }}
+      exit={{ x: "100%" }}
+      transition={{ type: "spring", stiffness: 120, damping: 20 }}
+    >
+      <div className="flex items-center justify-between mb-8">
+       <Image
+  src="/Logo2.png"
+  alt="ServiciosVerdes Inc."
+  width={900}       // más grande
+  height={100}      // proporcional
+  className="h-32 w-auto" 
+  style={{ marginBottom: '-80px', marginTop: '-40px' }} // h-32 = 8rem
+/>
+        <button onClick={() => setIsOpen(false)} className="text-[#6B9F3E]">
+          <X className="w-7 h-7" />  {/* le subí un poco el ícono para equilibrar */}
+        </button>
+      </div>
 
-            <div className="flex flex-col gap-6 mt-6">
-              {navItems.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  onClick={() => setIsOpen(false)}
-                  className="text-lg font-bold text-[#6B9F3E] hover:text-[#5A8533] transition-colors"
-                >
-                  {item.name}
-                </Link>
-              ))}
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <div className="flex flex-col gap-6 mt-6">
+        {navItems.map((item) => (
+          <Link
+            key={item.name}
+            href={item.href}
+            onClick={() => setIsOpen(false)}
+            className="text-lg font-bold text-[#6B9F3E] hover:text-[#5A8533] transition-colors"
+          >
+            {item.name}
+          </Link>
+        ))}
+      </div>
+    </motion.div>
+  )}
+</AnimatePresence>
+
     </header>
   )
 }
