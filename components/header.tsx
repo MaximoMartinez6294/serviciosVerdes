@@ -11,6 +11,7 @@ const navItems = [
   { name: "SERVICIOS", href: "#services" },
   { name: "NOSOTROS", href: "#about" },
   { name: "TESTIMONIOS", href: "#testimonials" },
+
 ]
 
 
