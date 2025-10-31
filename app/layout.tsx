@@ -6,11 +6,10 @@ import { Inter } from "next/font/google"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Maximo Martinez | Desarrollador Full Stack",
-  description: "Portfolio personal de Maximo Martinez, Desarrollador Full Stack",
-    generator: 'v0.dev'
+  title: "Servicios Verdes | Mantenimiento de Césped y Espacios Verdes",
+  description: "Servicios Verdes es una empresa dedicada al mantenimiento de césped, parques y espacios verdes. Ofrecemos soluciones profesionales en jardinería, paisajismo y cuidado del entorno.",
+  generator: "v0.dev"
 }
-
 export default function RootLayout({
   children,
 }: {

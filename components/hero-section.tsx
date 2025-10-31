@@ -11,7 +11,7 @@ export function HeroSection() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url('/beautiful-green-lawn-with-curved-edge-and-driveway.jpg')",
+          backgroundImage: "url('/cesped.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -31,7 +31,7 @@ export function HeroSection() {
             className="max-w-5xl"
           >
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-tight">
-              Welcome to Quiet, Clean, Emission-Free Lawn Care
+              Servicios profesionales de jardinería y mantenimiento
             </h1>
           </motion.div>
 
@@ -47,7 +47,7 @@ export function HeroSection() {
                 size="lg"
                 className="h-14 px-12 text-lg font-semibold bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#6B9F3E] transition-all duration-300 rounded-full"
               >
-                Request Quote!
+                Solicitar Cotización!
               </Button>
             </Link>
           </motion.div>

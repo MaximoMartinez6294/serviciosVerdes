@@ -22,15 +22,22 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
       <nav className="container mx-auto flex h-20 items-center justify-between px-4 md:px-8">
         {/* Logo */}
-        <Link href="#" className="flex items-center hover:opacity-80 transition-opacity">
-          <Image
-            src="/green-goat-lawn-care-logo-with-goat-illustration.jpg"
-            alt="Green Goat Lawn Care Inc."
-            width={250}
-            height={80}
-            className="h-16 w-auto"
-          />
-        </Link>
+<Link
+  href="#"
+  className="flex items-center hover:opacity-80 transition-opacity"
+>
+  <Image
+    src="/Logo2.png"
+    alt="ServiciosVerdes Inc."
+    width={900}        // mucha resolución, ideal para pantallas grandes
+    height={260}
+    className="h-48 w-auto md:h-56 lg:h-64"  
+    // móvil: 192px alto
+    // mediano: 224px
+    // grande: 256px
+  />
+</Link>
+
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center gap-8">
