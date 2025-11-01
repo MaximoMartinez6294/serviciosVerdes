@@ -44,7 +44,8 @@ export function ContactSection() {
   </h2>
   <div className="w-16 h-1 bg-[#6B9F3E] mx-auto mb-6"></div>
   <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-    ¿Listo para transformar tu jardín? Ponte en contacto con nosotros hoy mismo para una cotización y consulta gratuita.
+    Ofrecemos servicios de poda y mantenimiento para empresas, instituciones y grandes predios.
+Ponete en contacto con nosotros para coordinar una evaluación y presupuesto sin compromiso.
   </p>
 </div>
 
@@ -61,7 +62,7 @@ export function ContactSection() {
         </div>
         <div>
           <h3 className="font-semibold text-gray-900 mb-1">Teléfono</h3>
-          <p className="text-gray-600">(250) 339-2627</p>
+          <p className="text-gray-600">+54 291 339-5556</p>
           <p className="text-sm text-gray-500 mt-2">Disponible de 9AM a 6PM, Lunes a Viernes</p>
         </div>
       </div>
@@ -75,7 +76,7 @@ export function ContactSection() {
         </div>
         <div>
           <h3 className="font-semibold text-gray-900 mb-1">Correo</h3>
-          <p className="text-gray-600 break-all">info@greengoatlawns.ca</p>
+          <p className="text-gray-600 break-all">info@serviciosverdes.com.ar</p>
           <p className="text-sm text-gray-500 mt-2">Respondemos dentro de 24 horas</p>
         </div>
       </div>
@@ -88,9 +89,10 @@ export function ContactSection() {
           <MapPin className="w-6 h-6 text-white" />
         </div>
         <div>
-          <h3 className="font-semibold text-gray-900 mb-1">Ubicación</h3>
-          <p className="text-gray-600">Atendemos el Área Metropolitana de Vancouver</p>
-          <p className="text-sm text-gray-500 mt-2">British Columbia, Canadá</p>
+      <h3 className="font-semibold text-gray-900 mb-1">Ubicación</h3>
+<p className="text-gray-600">Atendemos Bahía Blanca y alrededores</p>
+<p className="text-sm text-gray-500 mt-2">Provincia de Buenos Aires, Argentina</p>
+
         </div>
       </div>
     </div>

@@ -28,18 +28,18 @@ export function Footer() {
         <div className="space-y-4 text-sm">
           <div className="flex items-start gap-3">
             <MapPin className="w-4 h-4 text-[#6B9F3E] flex-shrink-0 mt-1" />
-            <span>2175 McKenzie Ave, Comox, BC V9M 1M8</span>
+            <span>Buenos Aires, Bahia Blanca, Argentina</span>
           </div>
           <div className="flex items-start gap-3">
             <Phone className="w-4 h-4 text-[#6B9F3E] flex-shrink-0 mt-1" />
             <a href="tel:(250)339-5556" className="hover:text-[#6B9F3E] transition-colors">
-              (250) 339-5556
+              +54 291 339-5556
             </a>
           </div>
           <div className="flex items-start gap-3">
             <Mail className="w-4 h-4 text-[#6B9F3E] flex-shrink-0 mt-1" />
-            <a href="mailto:info@greengoatlawncare.ca" className="hover:text-[#6B9F3E] transition-colors">
-              info@greengoatlawncare.ca
+            <a href="mailto:info@serviciosverdes.com.ar" className="hover:text-[#6B9F3E] transition-colors">
+              info@serviciosverdes.com.ar
             </a>
           </div>
         </div>

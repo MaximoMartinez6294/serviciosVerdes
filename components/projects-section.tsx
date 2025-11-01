@@ -14,19 +14,19 @@ export function ProjectsSection() {
           {/* Left Column - Text Content */}
         <div className="space-y-6">
   <h3 className="text-xl font-bold text-gray-800">
-    ServiciosVerdes Inc., empresa familiar dedicada al cuidado de jardines desde 2018.
+    Servicios Verdes es una empresa familiar dedicada al mantenimiento y poda de espacios verdes empresariales e institucionales desde 2018.
   </h3>
 
   <p className="text-gray-600 leading-relaxed">
-    En ServiciosVerdes nos comprometemos a ofrecer un servicio profesional de alta calidad, cuidando tanto tu jardín como el medio ambiente.
+ Nos comprometemos a ofrecer un servicio profesional, eficiente y de alta calidad, adaptado a las necesidades de entornos corporativos e industriales.
   </p>
 
   <p className="text-gray-600 leading-relaxed">
-    Utilizamos herramientas modernas y eléctricas que reducen significativamente la contaminación y el ruido en comparación con los equipos tradicionales a gas. Nuestro objetivo es mantener tu césped impecable de manera eficiente y sostenible.
+ Contamos con un equipo capacitado y herramientas profesionales, garantizando resultados prolijos y seguros en cada trabajo.
   </p>
 
   <p className="text-gray-600 leading-relaxed">
-    ServiciosVerdes está totalmente registrado y cuenta con seguro, garantizando tranquilidad y confianza a nuestros clientes.
+    En ServiciosVerdes, priorizamos la seguridad, la puntualidad y la imagen profesional de los espacios que cuidamos.
   </p>
 </div>
 

@@ -11,10 +11,10 @@ const services = [
     image: "/mantenimiento.jpg",
   },
   {
-    title: "Mantenimiento de Jardines",
-    description:
-      "Ofrecemos mantenimiento integral de jardines: desmalezado, bordeado, poda de flores, plantación y colocación de mulch.",
-    image: "/cortecesped.jpg",
+    title: "Corte para Empresas y Predios",
+  description:
+    "Brindamos servicios de mantenimiento y corte de césped para empresas, instituciones y grandes predios. Garantizamos prolijidad, puntualidad y un entorno siempre presentable.",
+  image: "/empresas.jpg",
   },
   {
     title: "Poda y Recorte",
@@ -35,10 +35,11 @@ const services = [
   image: "/arboles.jpg",
 },
 {
-  title: "Corte para Empresas y Predios",
-  description:
-    "Brindamos servicios de mantenimiento y corte de césped para empresas, instituciones y grandes predios. Garantizamos prolijidad, puntualidad y un entorno siempre presentable.",
-  image: "/empresas.jpg",
+
+    title: "Mantenimiento de Jardines",
+    description:
+      "Ofrecemos mantenimiento integral de jardines: desmalezado, bordeado, poda de flores, plantación y colocación de mulch.",
+    image: "/cortecesped.jpg",
 },
 ];
 
