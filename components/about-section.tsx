@@ -7,7 +7,7 @@ const services = [
   {
     title: "Corte de Césped",
     description:
-      "Corte de césped limpio, silencioso y sin emisiones. Utilizamos únicamente cortadoras eléctricas profesionales de batería para cuidar tu jardín y el medio ambiente.",
+      "Corte de césped limpio y prolijo. Utilizamos equipos profesionales de alta precisión para garantizar un resultado uniforme y cuidado en cada trabajo.",
     image: "/mantenimiento.jpg",
   },
   {
