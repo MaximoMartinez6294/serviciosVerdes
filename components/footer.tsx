@@ -73,9 +73,6 @@ export function Footer() {
           <Facebook className="w-4 h-4" />
         </a>
         <a href="#" className="text-gray-400 hover:text-[#6B9F3E] transition-colors">
-          <Twitter className="w-4 h-4" />
-        </a>
-        <a href="#" className="text-gray-400 hover:text-[#6B9F3E] transition-colors">
           <Instagram className="w-4 h-4" />
         </a>
       </div>
